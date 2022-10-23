@@ -1,0 +1,29 @@
+.profile{
+    padding: 60px;
+    display: grid;
+    justify-self: center;
+    background-color: rgb(179, 245, 220);
+    margin: 0;
+    height: 90vh;
+}
+.profile img{
+width: 150px;
+height: 200px;
+border-radius: 80px;
+justify-self: center;
+}
+.description{
+text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-self: flex-end;
+    padding-top: 50px;
+}
+footer p {
+    display: flex;
+    justify-self: flex-end;
+    font-style: italic;
+    font-weight: bold;
+}

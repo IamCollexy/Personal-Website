@@ -1,0 +1,44 @@
+.footer {
+    background-color: #008080;
+         position: fixed;
+         bottom: 0; 
+         width: 100%;
+           padding: 10px;
+     
+}
+.footer button {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(204, 229, 250);
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+
+}
+.pad {
+    display: flex;
+    justify-content: space-between;
+}
+.pad div{
+padding: 3px;
+}
+.form {
+    display: grid;
+    width: 100%;
+}
+.form button{
+    display: block;
+    justify-self: center;
+    width: 50%;
+    background-color: rgb(204, 229, 250);
+    
+}
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.form label{
+ font-size: 12px;
+}
